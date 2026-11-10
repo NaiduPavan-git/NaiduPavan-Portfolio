@@ -14,7 +14,7 @@ Then visit `http://localhost:8000`.
 
 ## Publishing
 
-The GitHub Actions workflow in `.github/workflows/pages.yml` deploys the site to GitHub Pages whenever changes are pushed to `main`. It can also be started manually from the repository's Actions tab.
+The GitHub Actions workflow in `.github/workflows/static.yml` deploys the site to GitHub Pages whenever changes are pushed to `main`. It can also be started manually from the repository's Actions tab.
 
 ## Before publishing
 
