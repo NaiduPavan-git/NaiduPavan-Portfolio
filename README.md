@@ -12,15 +12,17 @@ python -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
+## Publishing
+
+The GitHub Actions workflow in `.github/workflows/pages.yml` deploys the site to GitHub Pages whenever changes are pushed to `main`. It can also be started manually from the repository's Actions tab.
+
 ## Before publishing
 
-The supplied resume screenshots did not make the email address, phone number, LinkedIn URL, or GitHub URL reliably readable. No contact details or profile links have been guessed. Add verified details to the contact section in `index.html` and update the JSON-LD Person profile if desired.
-
-The portfolio content is based on the uploaded resume screenshots. Review project dates and education details against the original editable resume before publishing, since the screenshots are low resolution.
+Review the portfolio content, contact information, and project dates before sharing the public URL.
 
 ## Files
 
 - `index.html` — page structure and SEO metadata
 - `styles.css` — responsive visual system and motion
 - `script.js` — mobile navigation and reveal-on-scroll behavior
-- `assets/Naidu-Pavan-Resume.pdf` — clean, text-based resume recreated from the supplied screenshots
+- `assets/Naidu_Pavan_Resume SE.pdf` — resume PDF
